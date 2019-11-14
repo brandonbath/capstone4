@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Capstone 4</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-FBPbZPVh+7ks5JJ70RJmIaqyGnvMbeJ5JQfEbW0Ac6ErfvEg9yG56JQJuMNptWsH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="capstone4.css">
+  <script src="capstone4.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-4">
+          <table class="table">
+            <div class="menuTable">
+              <tr>
+                <td id="kiwano">Kiwano</td>
+                <td>$1.99</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('Kiwano', '1.99');addToArray('Kiwano', 1.99);">Add to cart</button></td>
+              </tr>
+
+              <tr>
+                <td>Durian</td>
+                <td>$2.99</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('Durian', '2.99');addToArray('Durian', 2.99);">Add to cart</button></td>
+              </tr>
+
+              <tr>
+                <td>Screw Pine</td>
+                <td>$1.49</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('Screw Pine', '1.49');addToArray('Screw Pine', 1.49);">Add to cart</button></td>
+              </tr>
+
+              <tr>
+                <td>Akebia Quinata</td>
+                <td>$2.49</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('Akebia Quinata', '2.49');addToArray('Akebia Quinata', 2.49);">Add to cart</button></td>
+              </tr>
+
+              <tr>
+                <td>Dragon Fruit</td>
+                <td>$1.99</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('Dragon Fruit', '1.99');addToArray('Dragon Fruit', 1.99);">Add to cart</button></td>
+              </tr>
+
+              <tr>
+                <td>Kumquat</td>
+                <td>$4.99</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('Kumquat', '4.99');addToArray('Kumquat', 4.99);">Add to cart</button></td>
+              </tr>
+              <tr>
+                <td>STEAK!!</td>
+                <td>$64.99</td>
+                <td> <button type="button" class="btn btn-success disabled" onclick="addToCart('STEAK', '64.99');addToArray('STEAK', 64.99);">Add to cart</button></td>
+              </tr>
+          </table> <br>
+          <h4><button type="button" class="btn btn-outline-danger btn-lg btn-block" onclick="sumArray2(priceArr);">Checkout</button></h4>
+        </div>
+        <div class="col-sm-1">
+          <h2></h2>
+        </div>
+        <div class="col-lg-4">
+          <h4>Grocery List</h4>
+          <div id="grocerybox"> </div>
+        </div>
+        <div class="col-md-2">
+
+
+          <div id="groceryboxtotal"> </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+
+</html>
